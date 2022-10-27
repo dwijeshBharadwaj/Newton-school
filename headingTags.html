@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title>Heading Tags</title>
+    <link rel="stylesheet" href="./public/CSS/index.css">
+    <link rel="stylesheet" href="/public/CSS/2.css">
+</head>
+<style>
+    h2{
+        color: violet;
+        font-size: 50px;
+    }
+    h1 {
+        color: black;
+    }
+</style>
+<!--
+    moves from top to bottom inline has the highest priority then based on the place internal and external takes priority
+    index.css->2.css->inlinecss
+    h2{
+        color: greenFrom index.css then replaced by blue from 2.css last from style i.e. internal css 
+        font-size: 60px from index.css and then 40 from 2.css last from style
+        font-weight: 900;
+    }
+    h1{
+        color:black;
+    }
+-->
+<body>
+    <h1 style="color: blue;">heading 1</h1>
+    <h2 style="color: black;">heading 2</h2>
+    <h2>Heading 3</h2>
+    <h2>Heading 3</h2>
+    <h2>Heading 3</h2>
+    <h2>Heading 3</h2>
+    <h2>Heading 3</h2>
+    
+</body>
